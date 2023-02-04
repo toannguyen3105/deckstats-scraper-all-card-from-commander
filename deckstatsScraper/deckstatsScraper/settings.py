@@ -65,7 +65,7 @@ ITEM_PIPELINES = {
     'deckstatsScraper.pipelines.DeckstatsscraperPipeline': 1,
 }
 
-FILES_STORE = r"/home/tony/PycharmProjects/deckstats-scraper-all-card-from-commander/downloaded"
+FILES_STORE = r"/home/tony/Documents/Fiverr/decklist/downloaded"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
