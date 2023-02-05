@@ -16,8 +16,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Create an `.env` file from the `.env.example` file and change the content accordingly:
+Change the file storage configuration in the ```settings.py``` file
 - FILES_STORE: Configure the location to store downloaded files (note the change to suit your personal computer)
+```
+- Example:
+FILES_STORE = r"/home/tony/Documents/Fiverr/decklist/downloaded"
+```
 
 **The application scans between FROM_TIME and TO_TIME. Note to change the information LOGIN_USERNAME and LOGIN_PASSWORD**. To run the application, run the following command:
 ```
