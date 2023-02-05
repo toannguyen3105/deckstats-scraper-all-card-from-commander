@@ -21,6 +21,7 @@ Create an `.env` file from the `.env.example` file and change the content accord
 
 **The application scans between FROM_TIME and TO_TIME. Note to change the information LOGIN_USERNAME and LOGIN_PASSWORD**. To run the application, run the following command:
 ```
+cd deckstatsScraper/
 python main.py
 ```
 ![alt text](assets/images/screenshot.png)
